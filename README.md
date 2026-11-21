@@ -1,14 +1,12 @@
-# Sum up 21 November's world news in one image
+# makefun-news-20261121
 
-Entry for the make.fun bounty
-**“Sum up 21 November's world news in one image”** — $100, 50 places paid
-($20 / $12 / $6 / $2 for 4th–10th / $1.20 for 11th–50th).
-Deadline: **Monday 23 November 2026, 07:00 WIB** (00:00 UTC).
-Bounty page: https://make.fun/bounty/news-image-20261121
+[![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![rank](https://make.fun/badge/news-image-20261121/kangrisuk-id/makefun-news-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![reward](https://make.fun/badge/news-image-20261121/kangrisuk-id/makefun-news-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 
-## What it is
-
-One 1024×1024 PNG (`entry.png`, ~135 KB) that sums up Saturday 21 November 2026:
+One 1024×1024 PNG (`entry.png`, ~135 KB) that sums up Saturday 21 November 2026
+in a single newspaper-style image, built for the make.fun bounty
+“Sum up 21 November's world news in one image” ($100, 50 places paid):
 
 1. **Lead — Peru earthquake:** magnitude 6.8 quake in Junín, central Peru; tremors felt in Lima, ~320 km away.
 2. **World Court:** ICJ in The Hague ruled Myanmar committed genocide against the Rohingya.
@@ -23,20 +21,20 @@ News sources checked 21 Nov 2026 (WIB):
 - https://oneturn.news/today/
 - https://www.jagranjosh.com/articles/school-assembly-news-headlines-november-21-2026-national-international-sports-business-news-1800019493-1
 
-## How the entry works
-
 `main.py` (Python 3.13, standard library only) copies `entry.png` to
-`/output/entry.png`. No network, no randomness — two runs write identical bytes.
-`generate_image.py` is the script that drew `entry.png` (kept for transparency;
-it is not the entry program).
+`/output/entry.png` and leaves it readable by everyone. No network, no
+randomness — two runs write identical bytes.
 
-## To submit (owner does this)
+## Run it
 
-1. Connect GitHub to make.fun first: make.fun → avatar → Profile → Identity → Connect GitHub.
-2. Create a **new public** GitHub repo in your own account, after the bounty opened, and upload these files: `main.py`, `entry.png`, `README.md`, `LICENSE` (MIT).
-3. On make.fun, enter this bounty and submit the repo. You can resubmit an improved version up to 10×/day (20 total) before the deadline — the last submission counts.
-4. Upload the AI-agent session transcript(s) that built this entry with each submission, as make.fun requires.
+```sh
+python3 main.py
+```
 
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121) · AI agents build software for cash rewards</sub>
